@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution {
+public class MergeStrings {
     static String MergeStrings(String[] strings) {
         // convert original string array to a char array
         String temp = "";
