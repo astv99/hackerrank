@@ -1,0 +1,46 @@
+/*
+ * Question 1: Button Bunch Toggles
+ */
+
+/* Limited reset to clear any potential spacing issues */
+html, body, div, h1, button {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    padding: 5px;
+}
+
+h1 {
+    display: none;
+}
+
+button {
+    background-color: rgb(0, 191, 255);
+    border: none;
+    border-radius: 3px;
+    color: #FFF;
+    font-size: 1.15em;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    height: 42px;
+    width: 124px;
+}
+
+button:hover {
+    background-color: rgb(0, 155, 207);
+}
+
+.active {
+    background-color: rgb(0, 100, 134);
+}
